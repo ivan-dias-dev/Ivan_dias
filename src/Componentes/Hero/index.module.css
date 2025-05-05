@@ -1,0 +1,39 @@
+.card {
+  width: 80%;
+  height: 80vh;
+  margin: auto;
+  padding: 2rem;
+  text-align: justify;
+  animation: fadeIn 1s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+h1 {
+  font-size: 4rem;
+  color: var(--cor-texto);
+}
+
+h2 {
+  margin-bottom: 1em;
+}
+.name {
+  color: var(--azul-metalico);
+  font-weight: bold;
+  transition: 0.3s ease-in-out;
+}
+
+.name:hover {
+  text-shadow: 0px 0px 10px var(--azul-metalico);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

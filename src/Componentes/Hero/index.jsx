@@ -28,7 +28,7 @@ function Header() {
                 </div>
                 <div className={Style.imagemPai}>
                     <div className={Style.imagem}>
-                        <img src="../../public/imagens/my-photo.png" alt="" />
+                        <img src="/imagens/my-photo.png" alt="" />
                     </div>
                 </div>
             </div>

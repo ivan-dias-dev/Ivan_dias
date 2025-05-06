@@ -5,7 +5,8 @@ import Skills from '../Skills/index.jsx'
 import Projetos from '../Projetos/index.jsx'
 import Estudos from '../Estudos/index.jsx'
 
-import { Code } from '@phosphor-icons/react';
+import { Code, User, CodepenLogo, Books } from '@phosphor-icons/react';
+
 import React, { useState } from 'react';
 
 
@@ -32,7 +33,7 @@ function Card() {
         <div className={Style.card}>
             <div className={Style.navegacao}>
                 <button onClick={() => setSelecionado("Sobre")}>
-                    <Code size={28} color="#3A86FF" />
+                    <User size={28} color="#3A86FF" />
                     Sobre
                 </button>
                 <button onClick={() => setSelecionado("Skills")}>
@@ -41,11 +42,11 @@ function Card() {
                 </button>
 
                 <button onClick={() => setSelecionado("Projetos")}>
-                    <Code size={28} color="#3A86FF" />
+                    <CodepenLogo size={28} color="#3A86FF" />
                     Projetos
                 </button>
                 <button onClick={() => setSelecionado("Estudos")}>
-                    <Code size={28} color="#3A86FF" />
+                    <Books size={28} color="#3A86FF" />
                     Estudos
                 </button>
             </div>

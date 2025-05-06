@@ -1,0 +1,102 @@
+.conteiner {
+  width: 80%;
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative; /* Necessário para ::before */
+  border-radius: 1em; /* Igual ao do ::before */
+  box-sizing: border-box;
+  z-index: 1;
+  overflow: hidden;
+  border: 1px;
+}
+.cabecalho {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-content: center;
+}
+.contatosBody {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding: 2em;
+  gap: 2em;
+  flex-wrap: wrap;
+}
+
+.dados {
+  width: 20%;
+}
+
+.dados ul {
+  display: flex;
+  flex-direction: column;
+  align-self: start;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.dados ul li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+  margin-bottom: 1em;
+}
+
+.formulario {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-content: flex-end;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: flex-end;
+}
+.formulario input {
+  height: 1em;
+}
+
+::-webkit-input-placeholder {
+  color: var(--branco);
+  font: 12px verdana, arial, sans-serif;
+}
+
+:-moz-placeholder {
+  color: var(--branco);
+  font: 12px verdana, arial, sans-serif;
+}
+
+::-moz-placeholder {
+  color: var(--branco);
+  font: 12px verdana, arial, sans-serif;
+}
+
+:-ms-input-placeholder {
+  color: var(--branco);
+  font: 12px verdana, arial, sans-serif;
+}
+
+.formulario input,
+.formulario textarea {
+  background-color: var(--roxo-intenso);
+  width: 60%;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-radius: 0.5em;
+}
+
+.formulario textarea {
+  height: 8em;
+  resize: none;
+}

@@ -1,0 +1,19 @@
+{
+  "profile": [
+    {
+      "name": "Ivan Dias",
+      "photo": "https://avatars.githubusercontent.com/u/105668055?s=400&u=630289222e540deffe214c71123de4004436a291&v=4",
+      "age": 27,
+      "location": "Curitiba - PR",
+      "phone": "(41) 98420-4961",
+      "email": "contatoivandev@gmail.com"
+    }
+  ],
+  "professionalExperience": [
+    {
+      "name": "Assistente de Planejamento Digital na Bellinati Perez",
+      "period": "Desde 2020",
+      "description": "Responsável pela integração de fornecedores digitais, implantação e manutenção do fluxo de atendimento via chatbot com integração às APIs, atendimento de chamados, suporte e treinamento."
+    }
+  ]
+}

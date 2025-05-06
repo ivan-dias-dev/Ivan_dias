@@ -8,7 +8,7 @@ function Projetos() {
         <>
             <section className={Style.projetos}>
                 <div className={Style.projeto} >
-                    <img src="../../../public/imagens/frontMentor.png" alt="link do projeto" />
+                    <img src="https://raw.githubusercontent.com/ivan-dias-dev/Ivan_dias/refs/heads/master/public/imagens/frontMentor.png" alt="link do projeto" />
                     <h3>
                         Front End Mentor
                     </h3>
@@ -26,7 +26,7 @@ function Projetos() {
                     </button>
                 </div>
                 <div className={Style.projeto} >
-                    <img src="../../../public/imagens/frontMentor.png" alt="link do projeto" />
+                    <img src="https://raw.githubusercontent.com/ivan-dias-dev/Ivan_dias/refs/heads/master/public/imagens/frontMentor.png" alt="link do projeto" />
                     <h3>
                         Front End Mentor
                     </h3>

@@ -22,6 +22,7 @@
   padding: 2px; /* espaçamento para simular borda */
   overflow: hidden;
   z-index: 1;
+  height: 35em;
 }
 
 .projeto:hover {
@@ -32,6 +33,7 @@
 .projeto img {
   width: 100%;
   object-fit: cover;
+  height: 10em;
 }
 
 .projeto p {
@@ -58,3 +60,10 @@
   transition: all 0.3s ease;
 }
 
+.projeto h3 {
+  margin-top: 1em;
+}
+
+.bodyCard {
+  height: 20em;
+}

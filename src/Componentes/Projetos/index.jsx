@@ -34,7 +34,8 @@ function Projetos() {
                     </h3>
                     <div className={Style.bodyCard}>
                         <p>
-                            Portifólio antigo, em que eu mostrava staks que eu conhecia de aprendia no momento...
+                            Apresentação das stacks que eu já conhecia e estava explorando na época,
+                            como parte do meu processo de aprendizado contínuo no desenvolvimento web.
                         </p>
                     </div>
                     <div className={Style.botao}>
@@ -48,11 +49,12 @@ function Projetos() {
                 <div className={Style.projeto} >
                     <img src="/imagens/JNE.png" alt="link do projeto" />
                     <h3>
-                        Portifólio antigo
+                        JNE Pescados
                     </h3>
                     <div className={Style.bodyCard}>
                         <p>
-                            Portifólio antigo, em que eu mostrava staks que eu conhecia de aprendia no momento...
+                            Landing Page Institucional simples criada para uma holding de pescados que atua na região sul do Brasil, com foco em apresentar suas principais marcas,
+                            valores e diferenciais no setor alimentício, oferecendo uma experiência visual clara e profissional para seus parceiros e clientes.
                         </p>
                     </div>
                     <div className={Style.botao}>
@@ -70,7 +72,7 @@ function Projetos() {
                     </h3>
                     <div className={Style.bodyCard}>
                         <p>
-                            Portifólio antigo, em que eu mostrava staks que eu conhecia de aprendia no momento...
+                            Pacote de landing pages criado para campanhas de Business Manager no Facebook, com foco em captação de leads para o setor financeiro. As páginas foram desenvolvidas com foco em desempenho e compatibilidade com o Facebook Ads, sem necessidade de responsividade, já que eram voltadas principalmente para visualização em desktop.
                         </p>
                     </div>
                     <div className={Style.botao}>

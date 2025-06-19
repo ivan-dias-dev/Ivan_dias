@@ -1,5 +1,6 @@
 import Style from './index.module.css'
 import { LinkedinLogo, GithubLogo, ArrowFatLineDown } from '@phosphor-icons/react';
+import DownloadPDFButton from './DownloadExistingPDF.jsx';
 
 function Header() {
     // const [count, setCount] = useState(0)
@@ -17,7 +18,7 @@ function Header() {
                     <div className={Style.botes}>
                         <ul>
                             <button>Contate-me</button>
-                            <button className={Style.cv}>CV</button>
+                            <DownloadPDFButton />
                         </ul>
                     </div>
                     <div className={Style.redes}>

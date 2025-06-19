@@ -70,22 +70,23 @@
 
 @media (max-width: 768px) {
   .projetos {
-    display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    gap: 2rem;
-    padding: 2rem 0;
-    flex-wrap: wrap;
-    width: 100%;
-    padding: 2em;
-    height: 100%;
-    align-content: center;
   }
-  .projeto{
+
+  .projeto {
     width: 100%;
     height: auto;
-    font-size: 0.8em
+    font-size: 0.8em;
+  }
+
+  .projeto img {
+    max-height: 200px;
+    object-fit: contain;
+  }
+
+  .projeto button {
+    width: 80%;
   }
 }
 

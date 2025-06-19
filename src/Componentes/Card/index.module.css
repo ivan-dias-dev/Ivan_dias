@@ -18,18 +18,20 @@
   position: absolute;
   inset: 0;
   padding: 0.6px; /* borda fina */
-  background: linear-gradient(45deg, #3c2751, #1b1b42, #213b3b, #8a6419); /* cores mais suaves */
+  background: linear-gradient(
+    45deg,
+    #3c2751,
+    #1b1b42,
+    #213b3b,
+    #8a6419
+  ); /* cores mais suaves */
   border-radius: 1em;
   z-index: -1;
-  mask: 
-    linear-gradient(#fff 0 0) content-box, 
-    linear-gradient(#fff 0 0);
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
   mask-composite: exclude; /* Chrome */
   -webkit-mask-composite: destination-out; /* Safari */
   filter: brightness(0.9) saturate(0.7); /* reduz intensidade */
 }
-
-
 
 .texto {
   font-size: 1.1rem;
@@ -57,17 +59,18 @@
 }
 
 @media (max-width: 768px) {
+  .card {
+    width: 95%;
+    padding: 1.5em;
+  }
+
   .navegacao {
-    display: flex;
-    gap: 1em;
-    justify-content: center;
-    padding: 1rem 0;
-    gap: 1rem;
-    width: 100%;
-    margin-top: 0px;
-    flex-wrap: nowrap;
     flex-direction: column;
-    align-content: center;
     align-items: center;
+  }
+
+  .navegacao button {
+    width: 100%;
+    max-width: 18rem;
   }
 }

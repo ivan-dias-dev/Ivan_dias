@@ -100,3 +100,38 @@
   height: 8em;
   resize: none;
 }
+@media (max-width: 768px) {
+  .conteiner {
+    width: 95%;
+    padding: 1em;
+  }
+
+  .contatosBody {
+    flex-direction: column;
+    padding: 1em;
+    gap: 1.5em;
+  }
+
+  .dados, .formulario {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+
+  .dados ul {
+    align-items: center;
+  }
+
+  .dados ul li {
+    justify-content: center;
+  }
+
+  .formulario {
+    align-items: center;
+  }
+
+  .formulario input,
+  .formulario textarea {
+    width: 100%;
+  }
+}

@@ -69,3 +69,22 @@ strong {
     transform: translateY(0);
   }
 }
+
+@media (max-width: 768px) {
+  .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .container1 {
+    display: none;
+  }
+  .container2 {
+    max-width: 100%;
+    padding: 0;
+  }
+  .card::before {
+    display: none;
+  }
+}

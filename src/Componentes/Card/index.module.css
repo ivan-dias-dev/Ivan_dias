@@ -56,3 +56,18 @@
   gap: 0.5rem;
 }
 
+@media (max-width: 768px) {
+  .navegacao {
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+    padding: 1rem 0;
+    gap: 1rem;
+    width: 100%;
+    margin-top: 0px;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+  }
+}

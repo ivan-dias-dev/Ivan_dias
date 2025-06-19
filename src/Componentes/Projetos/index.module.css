@@ -16,7 +16,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 30%;
+  width: 40%;
   background-color: var(--card-projetos);
   border-radius: 1em;
   padding: 2px; /* espaçamento para simular borda */
@@ -67,3 +67,30 @@
 .bodyCard {
   height: 20em;
 }
+
+@media (max-width: 768px) {
+  .projetos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem 0;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 2em;
+    height: 100%;
+    align-content: center;
+  }
+  .projeto{
+    width: 100%;
+    height: auto;
+    font-size: 0.8em
+  }
+}
+
+/* @media (min-width: 768px) {
+  .grafico {
+    display: flex;
+  }
+} */

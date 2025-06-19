@@ -41,7 +41,7 @@ function Skills() {
                 <p>Com a combinação de <strong>Node.js</strong>, <strong>React.js</strong>, <strong>C#</strong> e <strong>automação de processos</strong>, sou capaz de construir <strong>aplicações modernas, escaláveis</strong> e com uma <strong>experiência de usuário excepcional</strong>.</p>
 
             </div>
-            <div style={{ width: '100%', height: 350 }}>
+            <div className={Style.grafico}>
                 <ResponsiveContainer>
                     <BarChart
                         data={data}

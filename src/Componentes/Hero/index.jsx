@@ -17,7 +17,9 @@ function Header() {
                     <h2> Bem-vindo ao meu espaço!</h2>
                     <div className={Style.botes}>
                         <ul>
-                            <button>Contate-me <a href="https://api.whatsapp.com/send/?phone=41984204961&text&type=phone_number&app_absent=0"></a></button>
+                            <a href="https://api.whatsapp.com/send/?phone=41984204961&text&type=phone_number&app_absent=0" target="_blank" >
+                                <button>Contate-me</button>
+                            </a>
                             <DownloadPDFButton />
                         </ul>
                     </div>

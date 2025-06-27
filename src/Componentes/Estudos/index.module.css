@@ -1,5 +1,7 @@
 .card {
   width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
   padding: 2rem 0;
   text-align: justify;
   animation: fadeIn 1s ease-in-out;
@@ -7,5 +9,12 @@
   justify-content: center;
   align-items: center;
   gap: 2rem;
+  flex-direction: column;
 }
 
+@media (max-width: 768px) {
+  .card {
+    padding: 1rem 0;
+    gap: 1rem;
+  }
+}

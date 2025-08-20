@@ -31,7 +31,7 @@ function Header() {
                 </div>
                 <div className={Style.imagemPai}>
                     <div className={Style.imagem}>
-                        <img src="https://media.licdn.com/dms/image/v2/D4D03AQECjjOK_mg7_Q/profile-displayphoto-shrink_800_800/B4DZQXwvstG0Ak-/0/1735565443236?e=1752105600&v=beta&t=5TbaiyW8dMle6N4oqM5Ea6G5sukym152k_E0EeK_lg8" alt="" />
+                        <img src="../ivan.jpg" alt="" />
                     </div>
                 </div>
             </div>
